@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* start nav */
+nav {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end nav */
+/* start banner */
+#imgbanner {
+    width: 100%;
+    height: 100%;
+}
+.banner {
+    width: 100%;
+    height: 200px;
+}
+/* end banner */
+/* start aside */
+
+.dk {
+    color: aqua;
+    text-decoration: none;
+}
+
+.iplogin {
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dm {
+    width: 80%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dm a {
+    font-size: 18px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 0.5px solid gray;
+}
+.timkiem{
+    margin: 20px;
+}
+
+#group {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#group a {
+    text-decoration: none;
+}
+
+/* end aside */
+/* start main */
+
+article {
+    width: 256px;
+    height: 250px;
+    border: 0.4px solid #dddddd;
+    float: left;
+    margin: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.imgsp {
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.ttsp {
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.price {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+/* end main */
+/* start footer */
+footer {
+    background-color: #4f4f4f;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: 70px;
+}
+
+.ft {
+    float: left;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.lg {
+    float: left;
+    margin-top: 10px;
+}
+.thongtin {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+.imgmin {
+    width: 90px;
+    height: 30px;
+}
+
+/* end footer */
+
+
+
+.boxright {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxleft {
+    width: 73%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    width: 1100px;
+    height: auto;
+}
+
+.box4,
+.box5,
+.box6 {
+    width: 100%;
+    height: auto;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.box1{
+    width: 100%;
+    height: 230px;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.box1 form{
+    margin-left: 20px;
+}
+.box2{
+    width: 100%;
+    height: 250px;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.box3 {
+    width: 100%;
+    height: auto;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.tieude{
+    width: 100%;
+    height: 30px;
+
+}
+
+.tieude2{
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+.tieude2 {
+    width: 100%;
+    height: 30px;
+    background-color: gainsboro;
+    font-size: 20px;
+
+}
+
+.noidung {
+    width: 100%;
+    height: 300px;
+}
+
+.noidung li {
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+
+.noidung li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.noidung img {
+    margin-left: 260px;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.dulieu {
+    margin-left: 30px;
+    margin-top: 30px;
+}
