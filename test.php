@@ -1,3 +1,4 @@
 <?php
-echo "huing"
+echo "huing";
+echo "123";
 ?>
